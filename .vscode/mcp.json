@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "shopify-dev-mcp": {
+      "command": "npx",
+      "args": ["-y", "@shopify/dev-mcp@latest"],
+      "description": "Shopify Dev MCP for columns.com",
+      "type": "stdio"
+    },
+    "vercel.com": {
+      "url": "https://mcp.vercel.com",
+      "type": "http"
+    }
+  },
+  "inputs": []
+}

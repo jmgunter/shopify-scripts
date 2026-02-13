@@ -1,0 +1,29 @@
+{
+  "name": "shopify-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script:migrate-mpn": "tsx scripts/migrate-mpn-metafield.ts",
+    "graphql-codegen": "graphql-codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmgunter/shopify-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmgunter/shopify-scripts/issues"
+  },
+  "homepage": "https://github.com/jmgunter/shopify-scripts#readme",
+  "dependencies": {
+    "@graphql-codegen/cli": "^6.1.1",
+    "@shopify/admin-api-client": "^1.1.1",
+    "@shopify/api-codegen-preset": "^1.2.2",
+    "@types/node": "^25.2.3",
+    "dotenv": "^17.3.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
